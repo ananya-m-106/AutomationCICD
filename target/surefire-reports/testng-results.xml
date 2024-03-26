@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-16T11:30:34 IST" name="Regression" finished-at="2024-03-16T11:31:50 IST" duration-ms="76222">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="Tests.placeOrder(java.util.HashMap)[pri:0, instance:EndToEndApp.practice.Tests@1349883]" name="placeOrder" class="EndToEndApp.practice.Tests"/>
+        <method signature="ErrorValidation.loginpageErrorValidation()[pri:0, instance:EndToEndApp.practice.ErrorValidation@4007f65e]" name="loginpageErrorValidation" class="EndToEndApp.practice.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Regression">
+        <method signature="Tests.placeOrder(java.util.HashMap)[pri:0, instance:EndToEndApp.practice.Tests@1349883]" name="placeOrder" class="EndToEndApp.practice.Tests"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-03-16T11:30:34 IST" name="PlaceOrderTest" finished-at="2024-03-16T11:31:35 IST" duration-ms="61195">
+      <class name="EndToEndApp.practice.Tests">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EndToEndApp.practice.Tests@1349883]" started-at="2024-03-16T11:30:34 IST" name="launchApp" finished-at="2024-03-16T11:30:44 IST" duration-ms="9141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="placeOrder(java.util.HashMap)[pri:0, instance:EndToEndApp.practice.Tests@1349883]" started-at="2024-03-16T11:30:44 IST" name="placeOrder" data-provider="getData" finished-at="2024-03-16T11:30:59 IST" duration-ms="14978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Durga@12, Requiredproduct=ZARA COAT 3, email=ramusfkacc1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndApp.practice.Tests@1349883]" started-at="2024-03-16T11:30:59 IST" name="tearDown" finished-at="2024-03-16T11:30:59 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EndToEndApp.practice.Tests@1349883]" started-at="2024-03-16T11:30:59 IST" name="launchApp" finished-at="2024-03-16T11:31:07 IST" duration-ms="7994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="placeOrder(java.util.HashMap)[pri:0, instance:EndToEndApp.practice.Tests@1349883]" started-at="2024-03-16T11:31:07 IST" name="placeOrder" data-provider="getData" finished-at="2024-03-16T11:31:21 IST" duration-ms="13644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Durga$12, Requiredproduct=ADIDAS ORIGINAL, email=ramusfk1acc@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndApp.practice.Tests@1349883]" started-at="2024-03-16T11:31:21 IST" name="tearDown" finished-at="2024-03-16T11:31:21 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EndToEndApp.practice.Tests@1349883]" started-at="2024-03-16T11:31:21 IST" name="launchApp" finished-at="2024-03-16T11:31:27 IST" duration-ms="6129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="orderHistory(java.util.HashMap)[pri:0, instance:EndToEndApp.practice.Tests@1349883]" started-at="2024-03-16T11:31:27 IST" name="orderHistory" data-provider="getData" finished-at="2024-03-16T11:31:28 IST" depends-on-methods="EndToEndApp.practice.Tests.placeOrder" duration-ms="982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Durga@12, Requiredproduct=ZARA COAT 3, email=ramusfkacc1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndApp.practice.Tests@1349883]" started-at="2024-03-16T11:31:28 IST" name="tearDown" finished-at="2024-03-16T11:31:28 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EndToEndApp.practice.Tests@1349883]" started-at="2024-03-16T11:31:28 IST" name="launchApp" finished-at="2024-03-16T11:31:34 IST" duration-ms="5948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="orderHistory(java.util.HashMap)[pri:0, instance:EndToEndApp.practice.Tests@1349883]" started-at="2024-03-16T11:31:34 IST" name="orderHistory" data-provider="getData" finished-at="2024-03-16T11:31:35 IST" depends-on-methods="EndToEndApp.practice.Tests.placeOrder" duration-ms="1065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Durga$12, Requiredproduct=ADIDAS ORIGINAL, email=ramusfk1acc@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndApp.practice.Tests@1349883]" started-at="2024-03-16T11:31:35 IST" name="tearDown" finished-at="2024-03-16T11:31:35 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- EndToEndApp.practice.Tests -->
+    </test> <!-- PlaceOrderTest -->
+    <test started-at="2024-03-16T11:31:36 IST" name="ErrorValidationTest" finished-at="2024-03-16T11:31:50 IST" duration-ms="14368">
+      <class name="EndToEndApp.practice.ErrorValidation">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EndToEndApp.practice.ErrorValidation@4007f65e]" started-at="2024-03-16T11:31:36 IST" name="launchApp" finished-at="2024-03-16T11:31:41 IST" duration-ms="5043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="loginpageErrorValidation()[pri:0, instance:EndToEndApp.practice.ErrorValidation@4007f65e]" started-at="2024-03-16T11:31:41 IST" name="loginpageErrorValidation" finished-at="2024-03-16T11:31:41 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpageErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndApp.practice.ErrorValidation@4007f65e]" started-at="2024-03-16T11:31:41 IST" name="tearDown" finished-at="2024-03-16T11:31:42 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EndToEndApp.practice.ErrorValidation@4007f65e]" started-at="2024-03-16T11:31:42 IST" name="launchApp" finished-at="2024-03-16T11:31:48 IST" duration-ms="6069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="productPageErrorValidation()[pri:0, instance:EndToEndApp.practice.ErrorValidation@4007f65e]" started-at="2024-03-16T11:31:48 IST" name="productPageErrorValidation" finished-at="2024-03-16T11:31:50 IST" duration-ms="2337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productPageErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndApp.practice.ErrorValidation@4007f65e]" started-at="2024-03-16T11:31:50 IST" name="tearDown" finished-at="2024-03-16T11:31:50 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- EndToEndApp.practice.ErrorValidation -->
+    </test> <!-- ErrorValidationTest -->
+  </suite> <!-- Regression -->
+</testng-results>
